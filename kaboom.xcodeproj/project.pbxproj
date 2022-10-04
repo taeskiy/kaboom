@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A813A828D1F65A00F8273F /* kaboomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A813A728D1F65A00F8273F /* kaboomApp.swift */; };
+		50A813AA28D1F65A00F8273F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A813A928D1F65A00F8273F /* ContentView.swift */; };
+		50A813AC28D1F65B00F8273F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A813AB28D1F65B00F8273F /* Assets.xcassets */; };
+		50A813AF28D1F65B00F8273F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A813AE28D1F65B00F8273F /* Preview Assets.xcassets */; };
+		50A813B928D1F65B00F8273F /* kaboomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A813B828D1F65B00F8273F /* kaboomTests.swift */; };
+		50A813C328D1F65B00F8273F /* kaboomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A813C228D1F65B00F8273F /* kaboomUITests.swift */; };
+		50A813C528D1F65B00F8273F /* kaboomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A813C428D1F65B00F8273F /* kaboomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A813B528D1F65B00F8273F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A8139C28D1F65A00F8273F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A813A328D1F65A00F8273F;
+			remoteInfo = kaboom;
+		};
+		50A813BF28D1F65B00F8273F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A8139C28D1F65A00F8273F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A813A328D1F65A00F8273F;
+			remoteInfo = kaboom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50A813A428D1F65A00F8273F /* kaboom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaboom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A813A728D1F65A00F8273F /* kaboomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaboomApp.swift; sourceTree = "<group>"; };
+		50A813A928D1F65A00F8273F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50A813AB28D1F65B00F8273F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A813AE28D1F65B00F8273F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50A813B428D1F65B00F8273F /* kaboomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaboomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A813B828D1F65B00F8273F /* kaboomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaboomTests.swift; sourceTree = "<group>"; };
+		50A813BE28D1F65B00F8273F /* kaboomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaboomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A813C228D1F65B00F8273F /* kaboomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaboomUITests.swift; sourceTree = "<group>"; };
+		50A813C428D1F65B00F8273F /* kaboomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kaboomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A813A128D1F65A00F8273F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A813B128D1F65B00F8273F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A813BB28D1F65B00F8273F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A8139B28D1F65A00F8273F = {
+			isa = PBXGroup;
+			children = (
+				50A813A628D1F65A00F8273F /* kaboom */,
+				50A813B728D1F65B00F8273F /* kaboomTests */,
+				50A813C128D1F65B00F8273F /* kaboomUITests */,
+				50A813A528D1F65A00F8273F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A813A528D1F65A00F8273F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A813A428D1F65A00F8273F /* kaboom.app */,
+				50A813B428D1F65B00F8273F /* kaboomTests.xctest */,
+				50A813BE28D1F65B00F8273F /* kaboomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A813A628D1F65A00F8273F /* kaboom */ = {
+			isa = PBXGroup;
+			children = (
+				50A813A728D1F65A00F8273F /* kaboomApp.swift */,
+				50A813A928D1F65A00F8273F /* ContentView.swift */,
+				50A813AB28D1F65B00F8273F /* Assets.xcassets */,
+				50A813AD28D1F65B00F8273F /* Preview Content */,
+			);
+			path = kaboom;
+			sourceTree = "<group>";
+		};
+		50A813AD28D1F65B00F8273F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50A813AE28D1F65B00F8273F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50A813B728D1F65B00F8273F /* kaboomTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A813B828D1F65B00F8273F /* kaboomTests.swift */,
+			);
+			path = kaboomTests;
+			sourceTree = "<group>";
+		};
+		50A813C128D1F65B00F8273F /* kaboomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A813C228D1F65B00F8273F /* kaboomUITests.swift */,
+				50A813C428D1F65B00F8273F /* kaboomUITestsLaunchTests.swift */,
+			);
+			path = kaboomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A813A328D1F65A00F8273F /* kaboom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A813C828D1F65B00F8273F /* Build configuration list for PBXNativeTarget "kaboom" */;
+			buildPhases = (
+				50A813A028D1F65A00F8273F /* Sources */,
+				50A813A128D1F65A00F8273F /* Frameworks */,
+				50A813A228D1F65A00F8273F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaboom;
+			productName = kaboom;
+			productReference = 50A813A428D1F65A00F8273F /* kaboom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A813B328D1F65B00F8273F /* kaboomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A813CB28D1F65B00F8273F /* Build configuration list for PBXNativeTarget "kaboomTests" */;
+			buildPhases = (
+				50A813B028D1F65B00F8273F /* Sources */,
+				50A813B128D1F65B00F8273F /* Frameworks */,
+				50A813B228D1F65B00F8273F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A813B628D1F65B00F8273F /* PBXTargetDependency */,
+			);
+			name = kaboomTests;
+			productName = kaboomTests;
+			productReference = 50A813B428D1F65B00F8273F /* kaboomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A813BD28D1F65B00F8273F /* kaboomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A813CE28D1F65B00F8273F /* Build configuration list for PBXNativeTarget "kaboomUITests" */;
+			buildPhases = (
+				50A813BA28D1F65B00F8273F /* Sources */,
+				50A813BB28D1F65B00F8273F /* Frameworks */,
+				50A813BC28D1F65B00F8273F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A813C028D1F65B00F8273F /* PBXTargetDependency */,
+			);
+			name = kaboomUITests;
+			productName = kaboomUITests;
+			productReference = 50A813BE28D1F65B00F8273F /* kaboomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A8139C28D1F65A00F8273F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					50A813A328D1F65A00F8273F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					50A813B328D1F65B00F8273F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 50A813A328D1F65A00F8273F;
+					};
+					50A813BD28D1F65B00F8273F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 50A813A328D1F65A00F8273F;
+					};
+				};
+			};
+			buildConfigurationList = 50A8139F28D1F65A00F8273F /* Build configuration list for PBXProject "kaboom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A8139B28D1F65A00F8273F;
+			productRefGroup = 50A813A528D1F65A00F8273F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A813A328D1F65A00F8273F /* kaboom */,
+				50A813B328D1F65B00F8273F /* kaboomTests */,
+				50A813BD28D1F65B00F8273F /* kaboomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A813A228D1F65A00F8273F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A813AF28D1F65B00F8273F /* Preview Assets.xcassets in Resources */,
+				50A813AC28D1F65B00F8273F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A813B228D1F65B00F8273F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A813BC28D1F65B00F8273F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A813A028D1F65A00F8273F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A813AA28D1F65A00F8273F /* ContentView.swift in Sources */,
+				50A813A828D1F65A00F8273F /* kaboomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A813B028D1F65B00F8273F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A813B928D1F65B00F8273F /* kaboomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A813BA28D1F65B00F8273F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A813C328D1F65B00F8273F /* kaboomUITests.swift in Sources */,
+				50A813C528D1F65B00F8273F /* kaboomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A813B628D1F65B00F8273F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A813A328D1F65A00F8273F /* kaboom */;
+			targetProxy = 50A813B528D1F65B00F8273F /* PBXContainerItemProxy */;
+		};
+		50A813C028D1F65B00F8273F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A813A328D1F65A00F8273F /* kaboom */;
+			targetProxy = 50A813BF28D1F65B00F8273F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50A813C628D1F65B00F8273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50A813C728D1F65B00F8273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A813C928D1F65B00F8273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kaboom/Preview Content\"";
+				DEVELOPMENT_TEAM = X6UWS3A7V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kaboom;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = otoi.kaboom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A813CA28D1F65B00F8273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kaboom/Preview Content\"";
+				DEVELOPMENT_TEAM = X6UWS3A7V3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = kaboom;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = otoi.kaboom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A813CC28D1F65B00F8273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6UWS3A7V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = otoi.kaboomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaboom.app/kaboom";
+			};
+			name = Debug;
+		};
+		50A813CD28D1F65B00F8273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6UWS3A7V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = otoi.kaboomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kaboom.app/kaboom";
+			};
+			name = Release;
+		};
+		50A813CF28D1F65B00F8273F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6UWS3A7V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = otoi.kaboomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kaboom;
+			};
+			name = Debug;
+		};
+		50A813D028D1F65B00F8273F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X6UWS3A7V3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = otoi.kaboomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kaboom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A8139F28D1F65A00F8273F /* Build configuration list for PBXProject "kaboom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A813C628D1F65B00F8273F /* Debug */,
+				50A813C728D1F65B00F8273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A813C828D1F65B00F8273F /* Build configuration list for PBXNativeTarget "kaboom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A813C928D1F65B00F8273F /* Debug */,
+				50A813CA28D1F65B00F8273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A813CB28D1F65B00F8273F /* Build configuration list for PBXNativeTarget "kaboomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A813CC28D1F65B00F8273F /* Debug */,
+				50A813CD28D1F65B00F8273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A813CE28D1F65B00F8273F /* Build configuration list for PBXNativeTarget "kaboomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A813CF28D1F65B00F8273F /* Debug */,
+				50A813D028D1F65B00F8273F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A8139C28D1F65A00F8273F /* Project object */;
+}
